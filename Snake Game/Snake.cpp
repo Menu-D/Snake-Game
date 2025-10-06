@@ -2,10 +2,12 @@
 #include <string> 
 #include <iostream> 
 
-int width = 20;
-int height = 10;
-int dx = 1;
-int dy = 0;
+bool running = true; 
+
+int Snake::width = 40; 
+int Snake::height = 20; 
+int Snake::dx = 1; 
+int Snake::dy = 0; 
 
 Snake::Snake() 
 {

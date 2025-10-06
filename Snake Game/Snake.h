@@ -1,7 +1,9 @@
 #pragma once
+#ifndef SNAKE_H
+#define SNAKE_H
 #include <vector> 
 
-extern bool running = true;
+extern bool running;
 
 class Snake
 {
@@ -28,3 +30,4 @@ public:
 
 };
 
+#endif
